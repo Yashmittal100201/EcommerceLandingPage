@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.pannel-outer {
+    width: 100%;
+    padding: 20px 70px;
+    height: 90vh;
+    background-color: rgb(232, 238, 237);
+
+}
+
+.pannel-outer .content{
+    height: 600px;
+    /* border: 1px solid red; */
+}
+
+.pannel-outer .left{
+    width: 35%;
+}
+
+.pannel-outer .right{
+    width: 65%;
+}
+
+.left{
+    padding-top: 180px;
+}
+
+.para{
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: 'Ramabhadra', sans-serif;
+}
+
+.heading{
+    letter-spacing: 5px;
+   font-size: 50px;
+   line-height: 60px;
+   font-family: 'Ramabhadra', sans-serif;
+}
+
+.heading1{
+    color: rgb(14, 13, 13);
+}
+
+.heading2{
+    color: rgb(26, 143, 139);
+}
+
+
+.button{
+    padding-top: 30px;
+    padding-left: 130px;
+    font-size: 20px;
+}
+
+.shop_button{
+    font-weight: bold;
+    background-color: rgb(101, 242, 237);
+    border-radius: 15px;
+    border: 0.5px solid black;
+    padding: 10px;
+    color: rgb(253, 59, 38);
+    font-size: 15px;
+}
+
+.right img{
+    height: auto;
+    width: 100%;
+}
+
+.pannel-outer .right{
+   padding-top: 70px;
+}
+
+
