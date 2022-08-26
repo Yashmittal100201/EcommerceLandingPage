@@ -1,0 +1,84 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 320px;
+    border: 3px solid #f1f1f1;
+    border-radius: 2rem;
+    padding: 10px;
+}
+.card-content{
+    /* margin-left: 20px; */
+    /* height: 100%; */
+}
+
+.inner{
+
+    position: relative;
+    width: 85%;
+    height: 100%;
+}
+
+.img{
+    position: absolute;
+    background-color: #f1f1f1;
+    align-content: center;
+    text-align: center;
+    border-radius: 2rem;
+    /* margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 10px; */
+}
+.ig{
+    /* margin-left: 20px; */
+    /* padding: 10px; */
+    height: 350px;
+    width: 100%;
+    border-radius: 1.5rem;
+}
+.fa,.price{
+    color: #51766b;
+    font-size: large;
+}
+.btn{
+    height: 20px;
+    width: 100%;
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 100rem;
+    height: 30px;
+    text-align: center;
+}
+/* .btn:hover{
+    background-color: aliceblue;
+    border: 1px solid #51766b;
+} */
+.brand_name{
+    margin-bottom: 5px;
+    color: #959292;
+}
+.product_name{
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.pc{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+
+}
+.price{
+    font-size: large;
+    font-weight: bold;  
+}
+.fa-star,.fa-star-half-o{
+    color: orange;
+}
+.fa-shopping-cart{
+    /* margin-left: 300px; */
+    font-size: 20px;
+}

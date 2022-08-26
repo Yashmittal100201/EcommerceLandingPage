@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.navbar-outer{
+    position: sticky;
+    background-color: aliceblue;
+    color: black;
+    padding: 20px 70px;
+    box-shadow: 1px 3px rgb(200, 125, 150,0.4);
+    height: fit-content;
+}
+
+.container{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    width: auto;
+    line-height: 30px;
+}
+/* .navbar{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+} */
+
+
+.logo{
+    font-size: 35px;
+    font-family: 'Ramabhadra', sans-serif;
+}
+
+.logo .brand-logo{
+    color: orangered;
+}
+
+.nav-items{
+    display: inline-block;
+    margin-right: 20px;
+    width: fit-content;
+    
+}
+
+.nav-items ul li{
+    display: inline-block;
+    width: fit-content;
+    margin-right: 15px;
+    
+}
+
+.nav-items ul li a{
+    display: inline-block;
+    font-size: 20px;
+    width: fit-content;
+    color: black;
+    
+}
